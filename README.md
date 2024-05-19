@@ -1,2 +1,2 @@
 # Codewars-Solutions
-This repository contains the solution of Codewars problems solved in Python.
+This repository contains the solution of Codewars problems.
