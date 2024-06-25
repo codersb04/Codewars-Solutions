@@ -1,0 +1,15 @@
+"""
+Question:
+Reverse every other word in a given string, then return the string. Throw away any leading or trailing whitespace,
+while ensuring there is exactly one space between each word. Punctuation marks should be treated as if they are a part of the word in this kata.
+"""
+
+Solution:
+
+def reverse_alternate(st):
+    lst = st.split()
+    for i in range(0,len(lst)):
+        if i%2!=0:
+            lst[i] = lst[i][::-1]
+    return ' '.join(lst)
+            
